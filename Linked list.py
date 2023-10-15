@@ -119,6 +119,29 @@ if __name__=='__main__':
         else:
             return fibonnacchi(n-1)+fibonnacchi(n-2)
         
+        #write another function for factorial number 
+
+    def factorial(n):
+        if n==0:
+            return 1
+        else:
+            return n*factorial(n-1)
+        
+        #write a function for power of a number
+    def power(n,p):
+        if p==0:
+            return 1
+        else:
+            return n*power(n,p-1)
+        
+        #write a function for sum of digits of a number
+    def sumofdigits(n):
+        if n==0:
+            return 0
+        else:
+            return n%10+sumofdigits(n//10)
+        
+        #write a function for reverse of a number
         
 
 
