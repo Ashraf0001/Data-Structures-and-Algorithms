@@ -128,21 +128,8 @@ if __name__=='__main__':
             return n*factorial(n-1)
         
         #write a function for power of a number
-    def power(n,p):
-        if p==0:
-            return 1
-        else:
-            return n*power(n,p-1)
-        
-        #write a function for sum of digits of a number
-    def sumofdigits(n):
-        if n==0:
-            return 0
-        else:
-            return n%10+sumofdigits(n//10)
-        
-        #write a function for reverse of a number
-        
+    
+
 
 
     
