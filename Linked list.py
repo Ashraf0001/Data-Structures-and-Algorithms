@@ -104,4 +104,27 @@ if __name__=='__main__':
 
 
 
+    #adding new comment 
+
+    #creating new branch
+
+    #adding new comment in new branch
+
+    #write a function for fibonnacchi series 
+    def fibonnacchi(n):
+        if n==0:
+            return 0
+        elif n==1:
+            return 1
+        else:
+            return fibonnacchi(n-1)+fibonnacchi(n-2)
+        
+        
+
+
+    
+
+
+
+
 
